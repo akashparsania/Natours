@@ -1,0 +1,17 @@
+
+*,*::after,*::before{
+    margin:0px;
+    padding:0px;
+    box-sizing:inherit;
+}
+
+html{ //this defines wht 1ram is
+    font-size: 62.5%;  /* 10px= 16px*62.5%*/
+        /* this is 100% of root font size 16px but if user changes font size in brower it will take 62.5% of it  */
+}
+
+body{
+
+   
+    box-sizing: border-box;
+}
